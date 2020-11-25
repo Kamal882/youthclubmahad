@@ -33,13 +33,13 @@ if (strstr($_SERVER['SERVER_NAME'],'local')) {
 	define( 'DB_HOST', 'localhost' );
 }else {
 	/** The name of the database for WordPress */
-	define( 'DB_NAME', 'local' );
+	define( 'DB_NAME', 'insideco_youthClubMahad' );
 
 	/** MySQL database username */
-	define( 'DB_USER', 'root' );
+	define( 'DB_USER', 'insideco_youthClubMahad' );
 
 	/** MySQL database password */
-	define( 'DB_PASSWORD', 'root' );
+	define( 'DB_PASSWORD', 'youthclub@1234' );
 
 	/** MySQL hostname */
 	define( 'DB_HOST', 'localhost' );
